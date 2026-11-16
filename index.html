@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfólio Carlos Martins</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="assets/icons/favicon.svg"
+      type="image/svg"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="marca-pessoal">
+        <p class="abreviacao">CM</p>
+        <span>/</span>
+        <p class="marca-pessoal__nome">Carlos Martins</p>
+      </a>
+
+      <nav class="header__nav">
+        <ul>
+          <li class="header__nav-item">
+            <a href="#" title="ir para o Inicio">Inicio</a>
+          </li>
+          <li class="header__nav-item">
+            <a href="#sobre" title="ir para o Sobre">Sobre</a>
+          </li>
+          <li class="header__nav-item">
+            <a href="#projetos" title="ir para os Projetos">Projetos</a>
+          </li>
+          <li class="header__nav-item contato">
+            <a href="#" title="ir as Contatos">Contatos</a>
+          </li>
+        </ul>
+      </nav>
+
+      <button class="btn header__btn">
+        <span class="header__btn-pc">Vamos conversar</span>
+        <span class="header__btn-mobile">Contato</span>
+        <span class="i i-link"></span>
+      </button>
+    </header>
+
+    <main class="main">
+      <section class="hero container">
+        <div class="hero__apresentacao">
+          <h1>
+            Carlos <br />
+            Martins
+          </h1>
+          <div class="hero__proposta">
+            <h2>Desenvolvedor Web</h2>
+            <p>
+              Da ideia à interface, com atenção à estrutura, ao detalhe e à
+              experiência.
+            </p>
+          </div>
+
+          <div class="hero__btns">
+            <a class="btn btn-primary"
+              >Ver Projetos <span class="i i-link"></span>
+            </a>
+            <a class="btn btn-secund"
+              ><span class="btn-secund-pc">Entrar em </span>contato
+              <span class="i i-link"></span
+            ></a>
+          </div>
+        </div>
+
+        <div class="hero__imagem-container">
+          <p>CARLOS MARTINS</p>
+          <img src="assets/images/retrato.jpg" alt="" />
+        </div>
+      </section>
+
+      <section id="sobre" class="sobre container">
+        <h1>
+          Tecnologia com <br />
+          propósito e critério.
+        </h1>
+
+        <div class="sobre__bio">
+          <p>
+            Sou Carlos Martins, desenvolvedor web. Meu interesse está em
+            conectar interfaces, arquitetura de software e boas práticas de
+            desenvolvimento.
+          </p>
+          <div class="sobre__tragetoria">
+            <h2>SUA TRAJETÓRIA, COM SUAS PALAVRAS</h2>
+            <p>
+              Adicione aqui sua formação, seus caminhos no desenvolvimento e os
+              desafios que quer resolver. Apenas experiências reais.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="stack container">
+        <div class="stack__textos">
+          <h1>
+            Uma stack. <br />
+            Muitas possibilidades.
+          </h1>
+          <p>
+            Ferramentas para construir a experiência, <br />
+            a lógica e as conexões de uma aplicação.
+          </p>
+        </div>
+
+        <div class="stack__cards-container">
+          <article class="stack__card">
+            <h2 class="">FrontEnd</h2>
+            <ul>
+              <li>HTML</li>
+              <li>CSS/SCSS</li>
+              <li>JavaScript</li>
+              <li>TypeScript</li>
+              <li>Vue.js</li>
+              <li>React</li>
+            </ul>
+          </article>
+
+          <article class="stack__card">
+            <h2 class="stack__card-titulo">BackEnd</h2>
+            <ul>
+              <li>PHP</li>
+              <li>Python</li>
+              <li>Flask</li>
+            </ul>
+          </article>
+
+          <article class="stack__card">
+            <h2 class="stack__card-titulo">Ferramentas</h2>
+            <ul>
+              <li>MySQL</li>
+              <li>Git/GitHub</li>
+              <li>Figma</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section id="projetos" class="projetos container">
+        <h1 class="projetos__titulo">Projetos</h1>
+
+        <div class="projetos__container">
+          <article class="projeto-card">
+            <div class="projeto-card__image-container">
+              <img src="assets/images/habits.png" alt="" />
+            </div>
+            <div class="projeto-card__informacoes">
+              <h2>Habits</h2>
+              <p>
+                Apresente aqui o problema, a solução desenvolvida e os
+                aprendizados do projeto.
+              </p>
+
+              <ul class="projeto-card__tecnologias">
+                <li>Tecnologias</li>
+                <li>a definir</li>
+              </ul>
+
+              <hr />
+
+              <div class="projeto-card__links">
+                <a
+                  href="https://github.com/carlospmart/habits.git"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >GitHub <span class="i i-link"></span
+                ></a>
+                <a
+                  href="https://habits-bice-eight.vercel.app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Ao Vivo <span class="i i-link"></span
+                ></a>
+              </div>
+            </div>
+          </article>
+
+          <article class="projeto-card">
+            <div class="projeto-card__image-container">
+              <img src="assets/images/criador de senhas.png" alt="" />
+            </div>
+            <div class="projeto-card__informacoes">
+              <h2>Nome do Projeto</h2>
+              <p>
+                Apresente aqui o problema, a solução desenvolvida e os
+                aprendizados do projeto.
+              </p>
+
+              <ul class="projeto-card__tecnologias">
+                <li>Tecnologias a definir</li>
+              </ul>
+
+              <hr />
+
+              <div class="projeto-card__links">
+                <a href="#">GitHub <span class="i i-link"></span></a>
+                <a href="#">Ao Vivo <span class="i i-link"></span></a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
