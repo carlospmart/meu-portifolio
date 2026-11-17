@@ -35,7 +35,7 @@ O design prioriza uma experiência fluida, limpa e moderna, aplicando conceitos 
 O projeto foi construído utilizando tecnologias web essenciais e boas práticas de desenvolvimento:
 
 * **HTML5:** Estruturação semântica e acessível.
-* **CSS3 / SCSS:** Estilização modular avançada, variáveis customizadas (`:root`), Flexbox e CSS Grid.
+* **CSS3:** Estilização modular avançada, variáveis customizadas (`:root`), Flexbox e CSS Grid.
 * **Google Fonts:** Tipografia utilizando as fontes *Inter* e *IBM Plex Mono*.
 
 ---
