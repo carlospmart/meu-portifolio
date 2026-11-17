@@ -136,6 +136,7 @@ html {
 .header__btn {
   --color: #fff;
   --bg-color: #191c20;
+  text-decoration: none;
 }
 
 .btn-primary {
