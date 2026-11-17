@@ -3,10 +3,10 @@
 # 🚀 Portfólio Pessoal — Carlos Martins
 
 [![Status do Projeto](https://img.shields.io/badge/status-conclu%C3%ADdo-brightgreen?style=for-the-badge&logo=none)](#)
-[![Tecnologias](https://img.shields.io/badge/tech-HTML5%20%7C%20CSS3%20%7C%20JS-blue?style=for-the-badge&logo=html5)](#)
+[![Tecnologias](https://img.shields.io/badge/tech-HTML5%20%7C%20CSS3-blue?style=for-the-badge&logo=html5)](#)
 [![Licença](https://img.shields.io/badge/license-MIT-green?style=for-the-badge)](#)
 
-[🌐 Acessar Portfólio ao Vivo](#) *(Insira o link de deploy aqui, ex: Vercel ou GitHub Pages)*
+[🌐 Acessar Portfólio ao Vivo](https://portifolio-carlosmartins.vercel.app/)
 
 </div>
 
@@ -36,7 +36,6 @@ O projeto foi construído utilizando tecnologias web essenciais e boas práticas
 
 * **HTML5:** Estruturação semântica e acessível.
 * **CSS3 / SCSS:** Estilização modular avançada, variáveis customizadas (`:root`), Flexbox e CSS Grid.
-* **JavaScript (ES6+):** Comportamentos dinâmicos e navegação fluida (`scroll-behavior: smooth`).
 * **Google Fonts:** Tipografia utilizando as fontes *Inter* e *IBM Plex Mono*.
 
 ---
@@ -49,3 +48,10 @@ O projeto foi construído utilizando tecnologias web essenciais e boas práticas
 │   └── images/         # Imagens de perfil, retratos e thumbs de projetos
 ├── index.html          # Arquivo principal da estrutura HTML
 └── style.css           # Folha de estilos global e responsiva
+```
+
+## 📄 Licença
+
+Este projeto está licenciado sob a **Licença MIT**. O código-fonte é livre para uso, modificação e distribuição. 
+
+⚠️ **Nota sobre os ativos visuais:** As imagens pessoais, retratos e fotos de perfil contidos na pasta `assets/images` **não** estão cobertos pela Licença MIT e são de uso exclusivo e autoral de **Carlos Martins**.
